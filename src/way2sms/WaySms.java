@@ -14,8 +14,8 @@ public class WaySms {
 
  public static void main(String[] args) {
   
-  login("9723560167", "anki");
-  sendSMS("9723560167", "testing api");
+  login("loginnumber", "password");
+  sendSMS("smstonumber", "teste sms!!");
   
   System.out.println("Message has been sent successfully!");
  }
